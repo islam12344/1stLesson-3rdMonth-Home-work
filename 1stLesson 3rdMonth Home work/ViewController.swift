@@ -8,6 +8,27 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var firstString: UITextField!
+    
+    @IBOutlet weak var secondString: UITextField!
+    
+    
+    @IBAction func firstLogin(_ sender: UIButton) {
+        firstString.backgroundColor = .blue
+    }
+    
+    
+    @IBAction func secondLogin(_ sender: UIButton) {
+        secondString.backgroundColor = .brown
+    }
+    
+    
+    
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
